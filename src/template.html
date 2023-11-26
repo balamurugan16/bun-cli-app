@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes</title>
+</head>
+<style>
+  body {
+    font-family: monospace;
+    background-color: whitesmoke;
+    font-size: 10px;
+  }
+
+  header {
+    background-color: grey;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: whitesmoke
+  }
+
+  .container {
+    display: flex;
+    gap: 2rem;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .note {
+    font-size: 2rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: lightyellow;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.5px solid black
+  }
+</style>
+
+<body>
+  <header>
+    <h1>Notes</h1>
+  </header>
+  <main class="container">
+    {{ notes }}
+  </main>
+</body>
+
+</html>

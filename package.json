@@ -1,0 +1,22 @@
+{
+  "name": "bun-cli",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/yargs": "^17.0.32",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "bin": {
+    "note": "./index.ts"
+  },
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "open": "^9.1.0",
+    "yargs": "^17.7.2"
+  }
+}
